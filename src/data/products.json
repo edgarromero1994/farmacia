@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Passiflorine",
+    "descripcion":"Vitamina para las personas que requieren su bienestar en general",
+    "price": 85,
+    "imgUrl": "https://www.plmconnection.com/plmservices/PharmaSearchEngine/Mexico/DEF/SIDEF/400x400/genomma_Passiflorine_Crataegus_oxiacanta_Passiflora_incarnata_Salix_alba_25mg_50mg_30Tabletas_.png"
+  },
+  {
+    "id": 2,
+    "name": "Chupa Miel",
+    "descripcion":" Tratamiento para la  neumonía ",
+    "price": 125,
+    "imgUrl": "https://t1.uc.ltmcdn.com/es/posts/9/0/4/te_de_jengibre_limon_y_miel_beneficios_y_como_hacerlo_49409_orig.jpg"
+  },
+  {
+    "id": 3,
+    "name": " Gastridol",
+    "descripcion":"Se usa para tratar una variedad de condiciones relacionadas con el ácido estomacal, la úlcera péptica y la gastritis",
+    "price": 199,
+    "imgUrl": "https://http2.mlstatic.com/D_Q_NP_740174-MLM52565337869_112022-O.webp"
+  },
+  {
+    "id": 4,
+    "name": " Zarza parilla:",
+    "descripcion":"Usado tradicionalmente por su actividad antirreumática, antinflamatoria y diurética",
+    "price": 125,
+    "imgUrl": "https://i0.wp.com/farmaciaseconomicas.com.gt/wp-content/uploads/2022/03/ZARZAPARRILLA.png?fit=396%2C457&ssl=1"
+  },
+
+  {
+    "id": 5,
+    "name": "Cholagogue",
+    "descripcion":"  Para todo tipo de enfermedades intestinales",
+    "price": 150,
+    "imgUrl": "https://i1.sndcdn.com/artworks-000407025165-8fe09u-t500x500.jpg"
+  },
+
+  {
+    "id": 6,
+    "name": " Uña de gato",
+    "descripcion":"La uña de gato presenta usos tradicionales en enfermedades donde haya inflamación, por ello, hoy en día se reconoce  su uso en patologías como la artritis reumatoide y la artrosis.",
+    "price": 79,
+    "imgUrl": "https://www.inkanatural.com/public/imgproductos/una-gato-gra.png"
+  },
+
+  {
+    "id": 7,
+    "name": " Rompe quistes",
+    "descripcion":"Destruir y evitar quistes en los ovarios inflamación de vientre, dolor abdominal, ciclo irregular, cólicos, calambres, premenstruales.",
+    "price": 89,
+    "imgUrl": "https://i.ebayimg.com/images/g/a~8AAOSwrblcDtGl/s-l1200.webp"
+  },
+
+  {
+    "id": 8,
+    "name": " SANA COLON",
+    "descripcion":" Limpia intestinos y colon",
+    "price": 120,
+    "imgUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/51112176/2090115353.jpg"
+  },
+
+  {
+    "id": 9,
+    "name": " Antibiótico natural",
+    "descripcion":" Acacia, ajenjo, ajo",
+    "price": 99,
+    "imgUrl": "https://www.botanical-online.com/wp-content/uploads/antibioticos-plantas-remedios.jpg"
+  },
+
+  {
+    "id": 10,
+    "name": " Complefemen",
+    "descripcion":" Es el medicamento que se consume al principio del tratamiento de las mujeres para luego de un mes de consumir se  recomienda el Fem Plus y Sana Matriz.",
+    "price": 89,
+    "imgUrl": "https://grupofarmadelecuador.com/wp-content/uploads/2021/07/GrupoFarma-Ecuador-Producto-Ginecologico-Femen-Forte-400.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": " Fem plus",
+    "descripcion":" Tiene el efecto de poder desinfectar bacterias en el ovario de la mujer siendo el segundo tratamiento después de la primera",
+    "price": 80,
+    "imgUrl": "https://m.media-amazon.com/images/I/61l9NIQTYUL._AC_UF1000,1000_QL80_.jpg"
+  },
+
+  {
+    "id": 12,
+    "name": " Sana Matriz",
+    "descripcion":"Elimina quistes de ovarios y mama, Alivia el dolor del vientre, Evita sangrado excesivo por hemorragia",
+    "price": 75,
+    "imgUrl": "https://imageserve.babycenter.com/13/000/443/chSVpvFDnlOhfKwOBqNlVOW4am4Kut7C_med.jpg"
+  }
+
+
+
+]

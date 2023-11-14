@@ -1,0 +1,419 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  padding: 3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.linkdelnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.linkdelnav div {
+  margin: 0 40px;  
+}
+
+
+.linkdelnav div h2 {
+  font-size: 15px;
+}
+
+.linkdelnav div h2:hover {
+  color: #ff4000;
+  text-decoration: underline;
+}
+
+
+.nav-list i {
+  color: #00405d;
+  font-size: 30px;
+}
+
+
+
+.cart-count {
+  --zise: 28px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border: solid 2px white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--zise);
+  height: var(--zise);
+  max-width: var(--zise);
+  max-height: var(--zise);
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 50%;
+  top: -15px;
+  left:-8px;
+}
+
+.inicio {
+  color: #00405d;
+}
+
+nav > h2 {
+  position: relative;
+  left: 60;
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-list li 
+.item-icono {
+  width: 30px;
+  height: 30px 
+}
+/******** Items List ******/
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/****** Item  box *********/
+.item-box {
+  background-color: #fff;
+  width: 240px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 20px;
+}
+
+.item-quantity {
+  color: #fff;
+  background-color: #ff4000;
+  border-radius: 20px;
+  width: 30px;
+  margin-left: 90px;
+}
+
+
+
+.item-add-button {
+  background-color: #00405d;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+}
+
+.item-minus-button {
+  background-color: #d9534f;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.item-plus-button {
+  background-color: #00405d;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/****** Shopping Cart ********/
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+
+
+.item-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #00405d;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration:underline ;
+
+}
+
+
+.item-price {
+  color: #E64A19;
+  font-weight: 300;
+  font-size: 20px;
+}
+.item-imagen {
+  border-radius: 5px;
+  width: 100%;
+  height: 170px;
+}
+
+.item-img {
+  width: 300px;
+  margin: 20px;
+  border-radius: 100px;
+}
+
+.item-descripcion {
+  font-size: 9px;
+  color: #26251c;
+  margin: 5px;
+  font-weight: 700;
+}
+
+
+.invoice-container {
+  border: 2px solid #000;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.invoice-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.invoice-summary {
+  margin-bottom: 20px;
+}
+
+
+.cart-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+.item-pagar {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.invoice-summary {
+  display: flex;
+ flex-direction: column;
+}
+
+
+.container {
+  width: 100%; /* Ajusta el ancho del contenedor al 100% del viewport */
+  padding-top: 60px; /* Espacio superior igual a la altura del navbar */
+}
+
+/* Estilos para el navbar */
+.item-nav {
+  color: #fff;
+  position: fixed; /* Fija el navbar en la parte superior de la página */
+  top: 0; /* Fija el navbar en la parte superior */
+  left: 0;
+  right: 0;
+  z-index: 999; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.page-content {
+  padding-top: 20px;
+}
+
+.welcome-header {
+  background: linear-gradient(to right, #00621f, #00405d);
+  margin-top: 8px;
+  padding: 20px;
+}
+
+.icon-large i{
+  position: absolute;
+}
+
+.nombre-medicina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nombre-medicina h1 {
+  flex: 1;
+  margin: 20px;
+  color:#ffffffff;
+  font-size: 50px;
+}
+
+
+
+.mision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20PX;
+}
+
+.mision p {
+  flex: 1;
+  color:#ffffffff;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.mobile-links {
+  display: none;
+}
+
+
+
+@media (max-width: 760px) {
+  .invoice-container {
+    padding: 7px; /* Reduce el espacio alrededor del contenedor */
+    
+  }
+  .cart-item {
+    padding: 5px; /* Reduce el espacio alrededor de los elementos del carrito */
+  }
+
+  .nombre-medicina {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nombre-medicina h1 {
+    margin-right: 0;  
+    margin-bottom: 20px;  
+    font-size: 20px;
+  }
+
+  .mision {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mision p {
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .item-img {
+    width: 250px;
+  }
+
+  .invoice-container {
+    width: 250px;
+
+  }
+  
+}
+
+
+@media screen and (max-width: 760px) {
+  .linkdelnav {
+    display: none;
+  }
+
+  .mobile-links {
+    display: block;
+    position: absolute;
+    font-size: 11px;
+    margin-top: 40px;
+    background-color: #ffffffff;
+    margin-left: 20px;
+    padding: 10px;
+    width: 100px;
+  }
+
+  .ri-align-justify {
+    color: #00405d;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .mobile-links div h2:hover {
+    color: #ff4000;
+    text-decoration: underline;
+  }
+  
+}
+
+.pie-pagina {
+  background-color: #e5e2e2de;
+  color: #212121;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales {
+  margin-top: 10px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.ri-facebook-box-fill {
+  font-size: 2em;
+  color: #03A9F4;
+  cursor: pointer;
+}
+
+.ri-whatsapp-fill {
+  font-size: 2em;
+  color: #8BC34A;
+  cursor: pointer;
+}
+
+.ri-instagram-fill {
+  font-size: 2em;
+  color: #E91E63;
+  cursor: pointer;
+}
+
+.ri-tiktok-fill {
+  font-size: 2em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.direccion-empresa img {
+  width: auto;
+  height: 150px;
+}
